@@ -102,7 +102,6 @@ def gains(nombregagnant,nombrecomplementaire):
             print("et tu as aussi le complementaire quelle chance, 50 euros c'est pas mal !!")
             gains = gains +30
 
-
     if nombregagnant == 4:
         print("ca fait beaucoup de fric tu es chanceux, tiens prend tes 400 balles ")
         gains = gains + 400
