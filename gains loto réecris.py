@@ -117,6 +117,8 @@ def gains(nombregagnant,nombrecomplementaire):
             gains = gains +1800000
 
     return gains
+
+
 jouer = True
 prix = 0 
 argentgagne = 0
