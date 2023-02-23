@@ -4,13 +4,13 @@ jouer = True
 prix = 0
 gains = 0
 while jouer == True:
-    def tirage(grille): #on doit faire 5 tirages alors la flemme de l'écrire 5 fois 
-        gagnant = random.choice(grille) # choice c'est trouve un numéro dans la liste donnée apres 
+    def tirage(grille): #on doit faire 5 tirages alors on va pas l'écrire 5 fois 
+        gagnant = random.choice(grille) # choice : trouve un numéro dans la liste donnée apres 
         return gagnant 
 
 
     prix = prix + 2
-    premier = int(input("\n met ton premier numero \n")) #ATTENTION PAR DEFAUT CETTE MERDE PENSE QUE TU ECRIS DES STRINGS PAS DES INT !!!
+    premier = int(input("\n met ton premier numero \n")) 
     deuxieme = int(input("\n met ton  dexieme numero \n"))
     troisieme = int(input("\n met ton troisieme numero \n"))
     quatrieme = int(input("\n met ton quatrieme numero \n"))
