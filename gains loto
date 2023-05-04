@@ -11,7 +11,7 @@ while jouer == True:
 
     prix = prix + 2
     premier = int(input("\n met ton premier numero \n")) 
-    deuxieme = int(input("\n met ton  dexieme numero \n"))
+    deuxieme = int(input("\n met ton  dexieme numero \n")) #c'est mon programme, c'est moi qui décide alors la faute d'orthographe reste. 
     troisieme = int(input("\n met ton troisieme numero \n"))
     quatrieme = int(input("\n met ton quatrieme numero \n"))
     cinquieme = int(input("\n met ton cinquieme numero \n"))
